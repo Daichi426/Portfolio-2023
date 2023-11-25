@@ -1,3 +1,7 @@
 :root {
   --line_color: #06c755;
+  --horizontal-space: 20px;
+  --main-border: 1px solid rgba(0, 0, 0, 0.2);
+  --color-gray: rgba(0, 0, 0, 0.5);
+  --chat_background_color: #abc1d1;
 }

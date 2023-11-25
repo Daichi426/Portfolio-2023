@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>圏外 No Service</span>
+        <i class="fas fa-wifi"></i>
+        <!--  Wifi Icon -->
+      </div>
+      <div class="status-bar__column">
+        <span>00:00</span>
+      </div>
+      <div class="status-bar__column">
+        <span>150%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+        <!-- Batteryu Icon -->
+        <!-- Lightning Icon -->
+      </div>
+    </div>
+    <!--status-bar-->
+    <header class="alt-header">
+      <div class="alt-header_colum">
+        <a href="chats.html">
+          <i class="fa-solid fa-angle-left fa-2x"></i>
+        </a>
+      </div>
+      <div class="alt-header_colum">
+        <h1 class="alt-header_title">Daichi</h1>
+      </div>
+      <div class="alt-header_colum_last">
+        <span>
+          <i class="fas fa-search fa-2x"></i>
+        </span>
+        <span class="alt-header_colum"
+          ><i class="fa-solid fa-bars fa-2x"></i
+        ></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat_timestamp">2023・11・11土曜日</div>
+      <!--message 01-->
+      <div class="message-row">
+        <img src="https://avatars.githubusercontent.com/u/138880747" />
+        <div class="message-row_content">
+          <span class="message_author">Daichi</span>
+          <div class="message_info">
+            <span class="message_bubble">HI!!!</span>
+            <span class="message_time">17:17</span>
+          </div>
+        </div>
+      </div>
+
+      <!--message 02-->
+      <div class="message-row message-row--own">
+        <div class="message-row_content">
+          <div class="message_info">
+            <span class="message_bubble">HI!!!</span>
+            <span class="message_time">17:17</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!--reply you-->
+    <form class="reply">
+      <div class="reply_column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply_column">
+        <input type="text" placeholder="Write a message" />
+        <i class="far fa-smile-wink fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-circle-up"></i>
+        </button>
+      </div>
+    </form>
+    <!--reply me-->
+
+    <!--no mobie-->
+    <div id="no-mobile">
+      <span>画面サイズが大きいです˚‧º·(˚ ˃̣̣̥⌓˂̣̣̥ )‧º·˚</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/b5b97c0873.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
